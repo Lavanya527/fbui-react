@@ -1,0 +1,25 @@
+.sidebar {
+    position: fixed;
+    width: 200px;
+    line-height: normal;
+    background-color: rgb(196, 200, 255);
+    margin-top: -60px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+img {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+}
+
+ul li {
+    list-style-type: none;
+}
